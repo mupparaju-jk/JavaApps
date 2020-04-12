@@ -14,7 +14,7 @@ public class HelloWorld {
 	public static void main(String[] args) throws ParseException {
 		// TODO Auto-generated method stub
 		System.out.println("Welcome to Helloworld");
-		File file = new File("./src/resources/data-fie.txt");
+		File file = new File("./resources/data-fie.txt");
 		FileReader fr;
 		SimpleDateFormat df = new SimpleDateFormat("yyyy/dd/MM");
 		SimpleDateFormat fdf = new SimpleDateFormat("yyyy/MM/dd");
